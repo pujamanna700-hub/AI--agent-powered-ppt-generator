@@ -10,9 +10,9 @@ from tavily import TavilyClient
 import numpy as np
 import streamlit as st
 
-GOOGLE_KEY = st.sidebar.text_input("GOOGLE-API",type = "password")
-GROQ_KEY =  st.sidebar.text_input("GROQ-API,type = "password")
-TAVILY_KEY =  st.sidebar.text_input("TAVILY-API,type = "password")
+GOOGLE_API_KEY = st.sidebar.text_input("GOOGLE-API",type = "password")
+GROQ_API_KEY =  st.sidebar.text_input("GROQ-API,type = "password")
+TAVILY_API_KEY =  st.sidebar.text_input("TAVILY-API,type = "password")
 
 os.environ["GOOGLE_API_KEY"] = GOOGLE_KEY
 os.environ["GROQ_API_KEY"] = GROQ_KEY
