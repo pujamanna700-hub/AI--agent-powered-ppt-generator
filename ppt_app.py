@@ -68,7 +68,7 @@ def generate_image(img_prompt):
   from PIL import Image
   return url
 # WITH TABS
-tabl, tab2, tab3=st.tabs(["GENERATE IMAGE",
+tab1, tab2, tab3=st.tabs(["GENERATE IMAGE",
                           "CHECK LATEST NEWS",
                           "GENERATE PPT"
                           ])
