@@ -117,7 +117,7 @@ if all(ALL_API) and user_query:
           img_data = r.get(data)
           #time.sleep(3)
           st.image(data)
-          st.image("Image.jpeg")
+          #st.image("Image.jpeg")
     
     with tab2:
       st.header("check latest news")
